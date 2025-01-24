@@ -38,15 +38,12 @@ const SinglePage=()=>{
     return(
         <PagesDiv>
             <FirstContainer>
-                <Linkss/> 
-                            
+                <Linkss/>                      
             <SecondContainer>
                 <Dashboard/> 
-         
             <ThirdContainer>
                 <PerformanceComponent/>
             </ThirdContainer>
-
             </SecondContainer>
             </FirstContainer>
         </PagesDiv>
