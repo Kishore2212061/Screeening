@@ -10,7 +10,6 @@ const WelcomeMessage =styled.h1`
 const StatsContainer =styled.div`
   display: flex;
   justify-content: space-around;
-  width: 100%;
   margin-bottom: 20px;
 `;
 const StatValue =styled.p`
@@ -75,16 +74,12 @@ const Card = styled.div`
   background-color: #ff9f9f; 
   border-radius: 15px;
   padding: 30px;
-  width: 100%;
-  height:20%;
   color: white;
-  font-family: Arial, sans-serif;
   position: relative;
   display:flex;
   box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
   flex-direction:column;
-    margin-bottom: 20px;
-
+  margin:40px;
 `;
 const Title = styled.h2`
   margin-bottom: 20px;

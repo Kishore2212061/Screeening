@@ -5,44 +5,33 @@ import styled from "styled-components";
 
 const PagesDiv =styled.div`
 display: flex;
-max-height:400vh;
-justify-content:center;
 padding:20px;
 background-color: wheat;
 border-radius: 30px;
-max-height:400vh;
-
+width:1500px;
 `;
 
 const FirstContainer=styled.div`
 display:flex;
 background-color: #3f3d56;
-width:95%;
 border-radius: 30px;
-
 padding:0;
-max-height:400vh;
 `;
 
 const SecondContainer=styled.div`
-width:100%;
+display:flex;
 background-color:#ffffff;
 border-radius: 30px;
 padding:20px;
 border:20px solid #ffff;
-display:flex;
-flex: 2 4 150px;
-max-height:400vh;
 `;
 
 const ThirdContainer=styled.div`
-width:40%;
+display:flex;
 background-color:#ffcc80;
 border-radius: 30px;
 padding:20px;
-margin-left:80px;
-flex: 2 4 150px;
-max-height:400vh;
+flex-direction:column;
 `;
 const SinglePage=()=>{
 
