@@ -9,6 +9,9 @@ const Sidebar =styled.div`
   align-items: center;
   padding: 20px;
   border-radius: 30%;
+  @media only screen and (max-width: 600px) {
+    flex-direction:row;
+}
 `;
 
 const ProfileImage =styled.img`
@@ -17,6 +20,10 @@ const ProfileImage =styled.img`
   border: 3px solid white;
   margin-top:50%;
   margin-bottom:20px;
+    @media only screen and (max-width: 600px) {
+    flex-direction:row;
+      margin:0;
+}
 `;
 const NavLink =styled(Link)`
   text-decoration: none;
@@ -34,6 +41,9 @@ const NavLink =styled(Link)`
 const NavMenu = styled.nav`
   display: flex;
   flex-direction: column;
+   @media only screen and (max-width: 600px) {
+    flex-direction:row;
+}
 `;
 const LogoutButton = styled(NavLink)`
   margin-top: auto;

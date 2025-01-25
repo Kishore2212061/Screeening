@@ -9,17 +9,20 @@ padding:20px;
 background-color: wheat;
 border-radius: 30px;
 width:1500px;
+@media only screen and (max-width: 600px) {
+ height:3124px;
+}
 `;
 
 const FirstContainer=styled.div`
 display:flex;
 background-color: #3f3d56;
 border-radius: 30px;
-padding:0; 
+padding:0;
 @media only screen and (max-width: 600px) {
     flex-direction:column;
-    width:100%;
-} 
+   width:100%;
+}
 `;
 
 const SecondContainer=styled.div`
