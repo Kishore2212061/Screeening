@@ -55,7 +55,6 @@ export const useDashboardStore =create<dashboard>(()=>({
         { label: "Worst Selling", value: "$1.0K", orders: 85, percentage: -10 },
         { label: "Best Selling", value: "$1.0K", orders: 65, percentage: 45 },
     ],
-
 }));
 
 

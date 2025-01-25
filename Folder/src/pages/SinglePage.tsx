@@ -15,7 +15,11 @@ const FirstContainer=styled.div`
 display:flex;
 background-color: #3f3d56;
 border-radius: 30px;
-padding:0;
+padding:0; 
+@media only screen and (max-width: 600px) {
+    flex-direction:column;
+    width:100%;
+} 
 `;
 
 const SecondContainer=styled.div`
@@ -24,6 +28,10 @@ background-color:#ffffff;
 border-radius: 30px;
 padding:20px;
 border:20px solid #ffff;
+@media only screen and (max-width: 600px) {
+    flex-direction:column;
+  
+}
 `;
 
 const ThirdContainer=styled.div`
