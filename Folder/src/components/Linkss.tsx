@@ -9,7 +9,7 @@ const Sidebar =styled.div`
   align-items: center;
   padding: 20px;
   border-radius: 30%;
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 1024px) {
     flex-direction:row;
 }
 `;
@@ -19,7 +19,7 @@ const ProfileImage =styled.img`
   object-fit: cover;
   margin-top:50%;
   margin-bottom:20px;
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 1024px) {
     flex-direction:row;
       margin:0;
       padding:50px;
@@ -41,7 +41,7 @@ const NavLink =styled(Link)`
 const NavMenu = styled.nav`
   display: flex;
   flex-direction: column;
-   @media only screen and (max-width: 600px) {
+   @media only screen and (max-width: 1024px) {
     flex-direction:row;
 }
 `;
@@ -49,7 +49,7 @@ const LogoutButton = styled(NavLink)`
   margin-top: auto;
   padding: 30px;
   text-align: center;
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 1024px) {
     margin:0;
     padding-top:30px;
     align-items:center;

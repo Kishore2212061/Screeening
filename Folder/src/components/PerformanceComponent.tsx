@@ -5,7 +5,7 @@ const Title = styled.h1`
   font-size: 22px;
   color: #333;
   margin-bottom: 40px;
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 1024px) {
       padding:10px;
       margin-bottom:25px;
 
@@ -16,7 +16,7 @@ const ClientsContainer = styled.div`
   justify-content: center;
   gap: 15px;
   width: 100%;
-      @media only screen and (max-width: 600px) {
+      @media only screen and (max-width: 1024px) {
       padding:10px;
       justify-content:space-around;
       gap:10px;
