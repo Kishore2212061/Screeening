@@ -52,7 +52,7 @@ const NavMenu = styled.nav<NavMenuProps>`
     flex-direction: column;
     position: absolute;
     left:150%;
-    top:50%;
+    top:50;
     display: ${({ isOpen }) => (isOpen ? "flex" : "none")};
     background-color: #3f3d56;
     width: 90%;
