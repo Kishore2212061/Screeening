@@ -10,7 +10,6 @@ background-color: wheat;
 border-radius: 30px;
 width:1500px;
 @media only screen and (max-width: 600px) {
- height:3124px;
 }
 `;
 
@@ -21,7 +20,8 @@ border-radius: 30px;
 padding:0;
 @media only screen and (max-width: 600px) {
     flex-direction:column;
-   width:100%;
+     width:100%;   
+  
 }
 `;
 
@@ -33,7 +33,9 @@ padding:20px;
 border:20px solid #ffff;
 @media only screen and (max-width: 600px) {
     flex-direction:column;
-  
+     padding:50px;
+       margin-top:10px;
+
 }
 `;
 
@@ -43,6 +45,10 @@ background-color:#ffcc80;
 border-radius: 30px;
 padding:20px;
 flex-direction:column;
+@media only screen and (max-width: 600px) {
+  padding:70px;
+       margin-top:15px;
+}
 `;
 const SinglePage=()=>{
 

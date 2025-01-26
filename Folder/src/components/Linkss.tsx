@@ -17,12 +17,12 @@ const Sidebar =styled.div`
 const ProfileImage =styled.img`
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid white;
   margin-top:50%;
   margin-bottom:20px;
     @media only screen and (max-width: 600px) {
     flex-direction:row;
       margin:0;
+      padding:50px;
 }
 `;
 const NavLink =styled(Link)`
@@ -49,6 +49,11 @@ const LogoutButton = styled(NavLink)`
   margin-top: auto;
   padding: 30px;
   text-align: center;
+  @media only screen and (max-width: 600px) {
+    margin:0;
+    padding-top:30px;
+    align-items:center;
+}
 `;
 const Linkss=()=>{
     const {UserPhoto} =useDashboardStore();
