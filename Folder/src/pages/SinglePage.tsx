@@ -19,7 +19,7 @@ padding:0;
 @media only screen and (max-width: 1024px) {
     flex-direction:column;
      width:100%;   
-  
+
 }
 `;
 
@@ -32,7 +32,7 @@ border:20px solid #ffff;
 @media only screen and (max-width: 1024px) {
     flex-direction:column;
      padding:50px;
-       margin-top:10px;
+     margin-top:350px;
 
 }
 `;
