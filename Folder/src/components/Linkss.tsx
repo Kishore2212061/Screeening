@@ -17,7 +17,7 @@ const Sidebar = styled.div`
   padding: 20px;
   border-radius: 30%;
 
-  @media only screen and (max-width: 1024px) {
+  @media only screen and (max-width: 1025px) {
     flex-direction: row;
     justify-content: space-between;
   
@@ -34,7 +34,7 @@ const ProfileImage = styled.img`
   width: 80px;
   height: 80px;
 
-  @media only screen and (max-width: 1024px) {
+  @media only screen and (max-width: 1025px) {
     margin: 0;
     padding: 20px;
       width: 420px;
@@ -48,19 +48,20 @@ const NavMenu = styled.nav<NavMenuProps>`
   align-items: center;
   transition: all 0.3s ease-in-out;
 
-  @media only screen and (max-width: 1024px) {
-    flex-direction: column;
-    position: absolute;
-    left:150%;
-    top:50;
-    display: ${({ isOpen }) => (isOpen ? "flex" : "none")};
+  @media only screen and (max-width: 1025px) {
+    position: relative;
+    top: 130px;
+    left:-500px;
+     align-items: center;
     background-color: #3f3d56;
-    width: 90%;
-    text-align: center;
-    padding: 20px;
-    border-radius: 0 0 20px 20px;
+    display: ${({ isOpen }) => (isOpen ? "block" : "none")};
+    justify-content: center;
+    gap: 30px;
+      height: 100vh;
+      z-index: 1000;
   }
 `;
+
 
 const NavLink = styled(Link)`
   text-decoration: none;
@@ -74,7 +75,7 @@ const NavLink = styled(Link)`
   &:hover {
     color: gold;
   }
-    @media only screen and (max-width: 1024px) {
+    @media only screen and (max-width: 1025px) {
     margin-right: -200px;
     padding: 30px;
     align-items:center;
@@ -94,7 +95,7 @@ const Hamburger = styled.div`
   display: none;
   font-size: 30px;
   cursor: pointer;
-  @media only screen and (max-width: 1024px) {
+  @media only screen and (max-width: 1025px) {
   display:flex;
   width:100%;
   margin-left:55%;

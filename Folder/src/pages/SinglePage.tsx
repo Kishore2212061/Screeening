@@ -16,7 +16,7 @@ display:flex;
 background-color: #3f3d56;
 border-radius: 30px;
 padding:0;
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1025px) {
     flex-direction:column;
      width:100%;   
 
@@ -29,7 +29,7 @@ background-color:#ffffff;
 border-radius: 30px;
 padding:20px;
 border:20px solid #ffff;
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1025px) {
     flex-direction:column;
      padding:50px;
      margin-top:150px;
@@ -43,7 +43,7 @@ background-color:#ffcc80;
 border-radius: 30px;
 padding:20px;
 flex-direction:column;
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1025px) {
   padding:70px;
        margin-top:15px;
 }
